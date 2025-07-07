@@ -36,8 +36,8 @@ export const ThemeToggle = () => {
       //   "focus:outlin-hidden"
       // )}
       className={cn(
-        "fixed top-5 right-5 sm:top-5 sm:right-5 bottom-5 left-5 sm:left-auto sm:bottom-auto z-50 p-2 rounded-full transition-colors duration-300 hover:cursor-pointer",
-        "focus:outline-none"
+        "fixed z-50 p-2 rounded-full transition-colors duration-300 hover:cursor-pointer",
+        "right-5 bottom-5 sm:top-5 sm:bottom-auto"
       )}
     >
       {isDarkMode ? (
